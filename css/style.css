@@ -152,17 +152,18 @@ body{
 
 .change .bar1 {
     transform: rotate(-45deg) translate(-6px, 6px);
-    background-color: #c18f59;
+    background-color: #ab987a;
+    position: fixed;
 }
 
 .change .bar2 {
     opacity: 0;
-    background-color: #c18f59;
+    background-color: #ab987a;
 }
 
 .change .bar3 {
     transform: rotate(45deg) translate(-6px, -7px);
-    background-color: #c18f59;
+    background-color: #ab987a;
 }
 
 .stop-scroll {
@@ -982,6 +983,7 @@ body{
 .fh5co-quotes {
     position: relative;
     padding: 135px 0 172px;
+    height: 450px;
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -1144,7 +1146,7 @@ body{
 
 .site-footer {
     padding-top: 120px;
-    background-color: #343434;
+    background-color: #0f1626;
 }
 
 @media (max-width: 1250px) {
@@ -1230,7 +1232,7 @@ body{
 }
 
 .footer-contact-form {
-    width: 50%;
+    width: 430px;
 }
 
 .footer-contact-form .contact-form__input {
@@ -1240,11 +1242,12 @@ body{
 }
 
 .footer-contact-form .contact-form__input input {
-    width: 40%;
+    width: 38.5%;
     padding: 20px;
-    border: 1px solid #404040;
-    background-color: #282828;
-    color: #c18f59;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    background-color: #2d2d2d;
+    color: #ab987a;
 }
 
 .footer-contact-form .contact-form__input input::placeholder {
@@ -1269,8 +1272,8 @@ body{
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #404040;
-    background-color: #282828;
+    border: 1px solid #777777;
+    background-color: #2d2d2d;
     resize: none;
     color: #c18f59;
 }
@@ -1280,15 +1283,15 @@ body{
     text-transform: uppercase;
     font-size: 12px;
     color: #fff;
-    background-color: #c18f59;
+    background-color: #ff533d;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
 }
 
 .footer-contact-form .submit-button:hover {
-    background-color: #777;
+    background-color: #ab987a;
 }
 
 @media (max-width: 1250px) {

@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slick.css">
-	<title>Author</title>
+	<title>Stefan Todorovski</title>
 </head>
 <body>
 
@@ -28,10 +28,10 @@
 				<ul class="main-navigation__ul">
 					<li><a href="#">Homepage</a></li>
 					<li><a href="#aboutmelink">About me</a></li>
-					<li><a href="#">Places visited</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Helpful reviews</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#placesVisitedLink">Places visited</a></li>
+					<li><a href="#blogLink">Blog</a></li>
+					<li><a href="#helpfulReviewsLink">Helpful reviews</a></li>
+					<li><a href="#contactLink">Contact</a></li>
 				</ul>
 			</div>
 			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
@@ -111,6 +111,7 @@
 	<!-- About me end -->
 
 	<!-- Books and CD -->
+	<a id="placesVisitedLink"></a>
 	<section class="fh5co-books">
 		<div class="site-container">
 			<h2 class="universal-h2 universal-h2-bckg">Places visited</h2>
@@ -310,6 +311,7 @@
 	<!-- Counter -->
 
 	<!-- Blog -->
+	<a id="blogLink"></a>
 	<section class="fh5co-blog">
 		<div class="site-container">
 			<h2 class="universal-h2 universal-h2-bckg">My Blog</h2>
@@ -354,29 +356,39 @@
 						<p>A 1.5h trip to Trpejca was one of the best decisions that week. Cristal clear water, incredible sunset and great people. What more does one need?</p>
 					</div>
 				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/pelister.jpg" alt="blog image" width="266px" height="352px" style="object-fit: cover">
+					</div>
+					<div class="single-blog__text">
+						<h4>National Park Pelister</h4>
+						<span>November 11, 2020</span>
+						<p>A cold morning turned into a fantastic afternoon spent in Nize Pole, a village in the National Park Pelister, on Baba Mountain. Fresh air and hot tea was all we needed to relax and enjoy the moment.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<!-- Blog end -->
 
 	<!-- Quotes -->
+	<a id="helpfulReviewsLink"></a>
 	<section class="fh5co-quotes">
-		<video src="images/transition2.mp4" autoplay loop muted style="position:absolute; width: 100%; height: 100%; z-index: -1; margin-left: -680px; margin-top: -180px;"></video>
+		<video src="images/transition2.mp4" autoplay loop muted style="position:absolute; width: 100%; height: 900px; z-index: -1; margin-left: -680px; margin-top: -135px; object-fit: cover;"></video>
 		<div class="site-container">
 			<div class="about-me-slider">
 				<div style="position:relative; z-index: 2;">
 					<h2 class="universal-h2 universal-h2-bckg">Feedback</h2>
-					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
+					<p>“Travelling to Macedonia was AMAZING. I am incredibly thankful to Stefan for introducing me to this beautiful country and showing me its beauty and traditions. If it wasn't for his blog we would have never known about it. This site is incredibly helpful in my opinion.”</p>
 					<img src="./images/quotes.svg" alt="quotes svg">
-					<h4>David Dixon</h4>
-					<p>Reader</p>
+					<h4>Tobias Zwirn</h4>
+					<p>Köln, Germany</p>
 				</div>
 				<div style="position:relative; z-index: 2;">
-					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying 2</h2>
-					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
+					<p>“After a friend of mine recommended your blog, I travelled to Austria and Germany. With your suggestions for food and accommodation we were able to enjoy our stay even on a budget. Incredible work, fellow traveller.”</p>
 					<img src="./images/quotes.svg" alt="quotes svg">
-					<h4>David Dixon</h4>
-					<p>Reader</p>
+					<h4>Nicolás García</h4>
+					<p>Madrid, Spain</p>
 				</div>
 			</div>
 		</div>
@@ -401,24 +413,18 @@
 	<!-- Social -->
 
 	<!-- Footer -->
+	<a id="contactLink"></a>
 	<footer class="site-footer">
 		<div class="site-container">
 			<div class="footer-inner">
 				<div class="footer-info">
 					<div class="footer-info__left">
-						<img src="./images/footer-img.jpg" alt="about me image">
-						<p>Read more about me</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1482.3777679166685!2d21.40900186658469!3d42.005521805583165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354144347c06cb9%3A0x8176c642ff09aed6!2sFaculty%20of%20Electrical%20Engineering%20%26%20Information%20Technologies!5e0!3m2!1sen!2smk!4v1625244282870!5m2!1sen!2smk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 					<div class="footer-info__right">
-						<h5>Get In Touch</h5>
-						<p class="footer-phone">Phone: +958734902847</p>
-						<p>Email : Jhone@Example.com</p>
-						<div class="social-icons">
-							<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-							<a href="#" target="_blank"><img src="./images/social-pinterest.png" alt="social icon"></a>
-							<a href="#" target="_blank"><img src="./images/social-youtube.png" alt="social icon"></a>
-							<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-						</div>
+						<h5>Contact me</h5>
+						<p class="footer-phone">Phone: +72303848</p>
+						<p>Email : todorovskistefan2@gmail.com</p>
 					</div>
 				</div>
 				<div class="footer-contact-form">
@@ -437,13 +443,13 @@
 		<div class="footer-bottom">
 			<div class="site-container footer-bottom-inner">
 				<p>© 2019 Author | Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> | All rights Reserved.</p>
-				<div class="footer-bottom__img">
-					<img src="./images/footer-mastercard.png" alt="footer image">
-					<img src="./images/footer-paypal.png" alt="footer image">
-					<img src="./images/footer-visa.png" alt="footer image">
-					<img src="./images/footer-fedex.png" alt="footer image">
-					<img src="./images/footer-dhl.png" alt="footer image">
-				</div>
+<!--				<div class="footer-bottom__img">-->
+<!--					<img src="./images/footer-mastercard.png" alt="footer image">-->
+<!--					<img src="./images/footer-paypal.png" alt="footer image">-->
+<!--					<img src="./images/footer-visa.png" alt="footer image">-->
+<!--					<img src="./images/footer-fedex.png" alt="footer image">-->
+<!--					<img src="./images/footer-dhl.png" alt="footer image">-->
+<!--				</div>-->
 			</div>
 		</div>
 	</footer>
