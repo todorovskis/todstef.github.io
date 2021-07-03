@@ -81,7 +81,7 @@ body{
     top: 4.6%;
     width: 100%;
     z-index: 2;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     /*vidi tuka pak*/
 }
 
@@ -97,8 +97,8 @@ body{
     position: fixed;
     height: 100%;
     width: 100%;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background: #000;
     opacity: 0.85;
     /*margin-bottom: 25%;*/
@@ -178,6 +178,7 @@ body{
 .fh5co-top-banner{
     height: 85%;
     width: 100%;
+    margin-bottom: 15%;
 }
 
 .video{
@@ -211,7 +212,7 @@ body{
 .fh5co-top-banner .site-container {
     position: relative;
     z-index: 1;
-    padding-top: 3%;
+    padding-top: 0;
 }
 
 @media (max-width: 1600px) {
@@ -244,7 +245,7 @@ body{
 }
 
 .top-banner__inner .top-banner__text {
-    margin-top: 0%;
+    padding: 1%;
 }
 
 @media (max-width: 1250px) {
@@ -300,7 +301,7 @@ body{
 }
 
 .top-banner__inner .top-banner__text-up .top-banner__h2 {
-    margin-top: 0%;
+    margin-top: 0;
 }
 
 @media (max-width: 768px) {
@@ -374,7 +375,7 @@ body{
 
 .fh5co-about-me {
     position: relative;
-    margin: 14% 0 14%;
+    margin: 15% 0 15%;
     z-index: 1;
 }
 
@@ -395,10 +396,10 @@ body{
     background-image: url("../images/neolica.jpg");
     background-position: center;
     background-size: cover;
-    height: 500px;
+    /*height: 500px;*/
     top: -75px;
     right: 0;
-    height: calc(100% + 100px);
+    height: calc(100% + 10%);
     width: 70%;
     z-index: -1;
 }
@@ -681,10 +682,6 @@ body{
     height: 100%;
     transition: 0.3s ease;
 }
-
-/*.makedonija{*/
-/*    background: url("../images/macedonia1.jpg") repeat-y;*/
-/*}*/
 
 .single-book .single-book__img .single-book_download img {
     position: absolute;
@@ -986,7 +983,7 @@ body{
 .fh5co-quotes {
     position: relative;
     padding: 135px 0 172px;
-    height: 450px;
+    height: 100%;
     text-align: center;
     background-position: center;
     background-size: cover;
