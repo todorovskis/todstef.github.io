@@ -174,17 +174,16 @@ body{
 /* Navigation burger end */
 
 .fh5co-top-banner{
-    height: 90%;
+    height: 85%;
     width: 100%;
 }
 
-.fh5co-top-banner video{
-    height: 100%;
+.video{
+    height: 85%;
     width: 100%;
     object-fit: cover;
     position: absolute;
     z-index: -1;
-    margin-top: -21.2%;
 }
 
 .fh5co-top-banner::after {
@@ -372,7 +371,8 @@ body{
 
 .fh5co-about-me {
     position: relative;
-    margin: 193px 0 199px;
+    margin: 15% 0 15%;
+    z-index: 1;
 }
 
 @media (max-width: 1250px) {
