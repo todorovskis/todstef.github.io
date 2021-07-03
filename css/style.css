@@ -81,6 +81,7 @@ body{
     top: 4.6%;
     width: 100%;
     z-index: 2;
+    margin-bottom: 10%;
 }
 
 .site-navigation-inner {
@@ -172,17 +173,18 @@ body{
 
 /* Navigation burger end */
 
-/*.fh5co-top-banner{*/
-/*    margin-bottom:150px;*/
-/*}*/
+.fh5co-top-banner{
+    height: 100%;
+    width: 100%;
+}
 
 .fh5co-top-banner video{
-    height: 90%;
-    margin-top: -215px;
+    height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     position: absolute;
     z-index: -1;
+    margin-top: -21.2%;
 }
 
 .fh5co-top-banner::after {
