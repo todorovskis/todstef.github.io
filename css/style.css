@@ -71,7 +71,7 @@ body{
 
 .site-navigation {
     position: absolute;
-    top: 4.6%;
+    margin-top: 50px;
     width: 100%;
     z-index: 2;
     margin-bottom: 0;
