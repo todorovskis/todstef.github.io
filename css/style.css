@@ -172,7 +172,7 @@ body{
 .fh5co-top-banner{
     height: 85%;
     width: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 0;
 }
 
 .hide{
@@ -212,7 +212,7 @@ body{
 .fh5co-top-banner .site-container {
     position: relative;
     z-index: 1;
-    padding-top: 50px;
+    padding-top: 85px;
 }
 
 @media (max-width: 1600px) {
@@ -377,7 +377,7 @@ body{
 
 .fh5co-about-me {
     position: relative;
-    margin: 15% 0 15%;
+    margin: 10% 0 5% 0;
     z-index: 1;
 }
 
