@@ -105,8 +105,7 @@ body{
     padding: 3%;
     border: 2px solid #ab987a;
     border-radius: 5px;
-    background-color: red;
-
+    background-color: #0f1626;
 }
 
 .main-navigation .main-navigation__ul li {
@@ -243,6 +242,8 @@ body{
 .top-banner__inner {
     display: flex;
     align-items: center;
+    position: absolute;
+    margin-top: 1rem;
 }
 
 .top-banner__inner .top-banner__text {
