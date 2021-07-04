@@ -148,7 +148,7 @@ body{
 
 .change .bar1 {
     transform: rotate(-45deg) translate(-6px, 6px);
-    background-color: #ab987a;
+    background-color: red;
     position:fixed;
 }
 
@@ -1275,7 +1275,7 @@ body{
     border: 1px solid #777777;
     background-color: #2d2d2d;
     resize: none;
-    color: #c18f59;
+    color: #ab987a;
 }
 
 .footer-contact-form .submit-button {
@@ -1315,7 +1315,7 @@ body{
 }
 
 .footer-bottom-inner a {
-    color: #c18f59;
+    color: #ab987a;
     text-decoration: none;
     transition: 0.3s ease;
 }
