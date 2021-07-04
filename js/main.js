@@ -35,8 +35,6 @@ $(document).ready(function() {
 	
 });
 
-
-
 var counta = 0;
 
 $(window).scroll(function(e){
