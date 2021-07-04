@@ -212,7 +212,7 @@ body{
 .fh5co-top-banner .site-container {
     position: relative;
     z-index: 1;
-    padding-top: 0;
+    padding-top: 50px;
 }
 
 @media (max-width: 1600px) {
