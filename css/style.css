@@ -1,7 +1,5 @@
 /*
  * Author by FreeHTML5.co
- * Twitter: https://twitter.com/fh5co
- * Facebook: https://fb.com/fh5co
  * URL: https://freehtml5.co
  */
 
@@ -21,15 +19,14 @@
     src: url(../fonts/Calisto-MT-Bold.ttf);
 }
 
-/* Colors */
 /* Universal style */
 * {
     margin: 0;
     padding: 0;
-    font-family: "Calisto-MT";
+    font-family: "Calisto-MT", sans-serif;
 }
 
-body{
+body {
     background-color: #f5f5f5;
 }
 
@@ -62,7 +59,6 @@ body{
     }
 }
 
-/*dvete linii pod naslovot About me*/
 .universal-h2-bckg {
     background-image: url("../images/double-line.svg");
     background-repeat: no-repeat;
@@ -75,7 +71,6 @@ body{
     width: 100%;
     z-index: 2;
     margin-bottom: 0;
-    /*vidi tuka pak*/
 }
 
 .site-navigation-inner {
@@ -94,7 +89,6 @@ body{
     left: 0;
     background: #000;
     opacity: 0.85;
-    /*margin-bottom: 25%;*/
 }
 
 .main-navigation .main-navigation__ul {
@@ -132,7 +126,7 @@ body{
     }
 }
 
-/* Navigation burger */
+/* Navigation */
 .burger-container {
     cursor: pointer;
     z-index: 3;
@@ -149,7 +143,7 @@ body{
 .change .bar1 {
     transform: rotate(-45deg) translate(-6px, 6px);
     background-color: #ab987a;
-    position:fixed;
+    position: fixed;
 }
 
 .change .bar2 {
@@ -167,19 +161,19 @@ body{
     overflow: hidden;
 }
 
-/* Navigation burger end */
+/* Navigation end */
 
-.fh5co-top-banner{
+.fh5co-top-banner {
     height: 85%;
     width: 100%;
     margin-bottom: 0;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.video{
+.video {
     height: 85%;
     width: 100%;
     object-fit: cover;
@@ -187,12 +181,12 @@ body{
     z-index: -1;
 }
 
-.video-top{
+.video-top {
     top: 0;
     left: 0;
 }
 
-.video-bottom{
+.video-bottom {
     left: 0;
     top: 0;
     height: 100%;
@@ -212,7 +206,6 @@ body{
 .fh5co-top-banner .site-container {
     position: relative;
     z-index: 1;
-    /*kkkkkkkk*/
     padding-top: 85px;
 }
 
@@ -287,7 +280,7 @@ body{
     font-size: 74px;
     letter-spacing: 3.5px;
     color: #fff;
-    font-family: "Calisto-MT-Bold";
+    font-family: "Calisto-MT-Bold" ,sans-serif;
     text-transform: uppercase;
 }
 
@@ -399,7 +392,6 @@ body{
     background-image: url("../images/neolica.jpg");
     background-position: center;
     background-size: cover;
-    /*height: 500px;*/
     top: -75px;
     right: 0;
     height: calc(100% + 10%);
@@ -523,7 +515,7 @@ body{
     font-size: 85px;
     line-height: 75px;
     color: #ab987a;
-    font-family: "Calisto-MT-Bold";
+    font-family: "Calisto-MT-Bold", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -622,36 +614,36 @@ body{
     outline: none;
 }
 
-.fh5co-books {
+.fh5co-places {
     margin-bottom: 122px;
 }
 
-.fh5co-books .universal-h2 {
+.fh5co-places .universal-h2 {
     margin-bottom: 50px;
     padding-bottom: 20px;
 }
 
-.fh5co-books .books-brand-button {
+.fh5co-places .books-brand-button {
     text-align: center;
 }
 
-.fh5co-books .books-brand-button .brand-button {
+.fh5co-places .books-brand-button .brand-button {
     font-size: 16px;
     text-transform: none;
     border-color: #c18f59;
 }
 
-.fh5co-books .books-brand-button .brand-button:hover {
+.fh5co-places .books-brand-button .brand-button:hover {
     border-color: #777;
 }
 
 @media (max-width: 1250px) {
-    .fh5co-books {
+    .fh5co-places {
         margin-bottom: 60px;
     }
 }
 
-.books {
+.places {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -659,23 +651,23 @@ body{
 }
 
 @media (max-width: 559px) {
-    .books {
+    .places {
         justify-content: space-around;
     }
 }
 
-.single-book {
+.single-city {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.single-book .single-book__img {
+.single-city .single-city__img {
     position: relative;
     display: block;
     font-size: 0;
 }
 
-.single-book .single-book__img .single-book_download {
+.single-city .single-city__img .single-city_download {
     opacity: 0.2;
     visibility: hidden;
     position: absolute;
@@ -686,7 +678,7 @@ body{
     transition: 0.3s ease;
 }
 
-.single-book .single-book__img .single-book_download img {
+.single-city .single-city__img .single-city_download img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -694,18 +686,18 @@ body{
     z-index: 1;
 }
 
-.single-book .single-book__img:hover .single-book_download {
+.single-city .single-city__img:hover .single-city_download {
     visibility: visible;
     opacity: 0.8;
 }
 
-.single-book .single-book__title {
+.single-city .single-city__title {
     margin: 19px 0 18px;
     font-size: 18px;
     color: #0f1626;
 }
 
-.single-book .single-book__price {
+.single-city .single-city__price {
     font-size: 18px;
     font-weight: 600;
     font-style: italic;
@@ -713,11 +705,11 @@ body{
 }
 
 @media (max-width: 1250px) {
-    .single-book {
+    .single-city {
         margin-right: 10px;
     }
 
-    .single-book:last-child {
+    .single-city:last-child {
         margin-right: 0;
     }
 }
@@ -734,7 +726,11 @@ body{
     cursor: pointer;
 }
 
-.rating > span:hover:before, .rating > span:hover ~ span:before {
+.rating .unchecked {
+    color: #ab987a;
+}
+
+.rating > span:before, .rating > span ~ span:before {
     content: "\2605";
     position: absolute;
 }
@@ -880,7 +876,7 @@ body{
     font-size: 14px;
     color: #0f1626;
     text-transform: uppercase;
-    font-family: "Calisto-MT-Bold";
+    font-family: "Calisto-MT-Bold", sans-serif;
 }
 
 .single-blog .single-blog__text p {
@@ -978,7 +974,6 @@ body{
 }
 
 .blog-slider .span-arrow:hover {
-    /*color: #ff533d;*/
     color: #777777;
     border-color: #777777;
 }
@@ -1001,7 +996,6 @@ body{
     height: 100%;
     background-color: #0f1626;
     opacity: 0.8;
-    /*z-index: 1;*/
 }
 
 .fh5co-quotes .site-container {
@@ -1304,8 +1298,9 @@ body{
 }
 
 .footer-bottom {
+    border-top: 1px solid #f5f5f5;
     padding: 25px 0;
-    background-color: #2d2d2d;
+    background-color: #0f1626;
 }
 
 .footer-bottom-inner {
