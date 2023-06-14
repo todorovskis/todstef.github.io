@@ -1,2 +1,2 @@
 # todstef.github.io
-Personal web page for Stefan Todorovski. Made for the Web Design Course, in June 2021.
+Personal demo web page for a blogger. Made for the Web Design Course, in June 2021.
